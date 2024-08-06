@@ -1,0 +1,97 @@
+Producto del Kiosco
+
+ - Bebidas:
+
+	- Coca 1/2L			$1300
+ 	- Coca zero 1/2L		$1300
+	- Sprite 1/2L			$1300
+	- Sprite latita 		$900
+	- Fanta 1/2L			$1300
+	- Aquarius pera 1/2L 		$1300
+	- Aquarius pomelo 1/2L		$1300
+	- Baggio durazno		$800
+	- Baggio manzana		$800
+	- Baggio multi			$800
+	- Baggio naranja		$800
+	- Agua				$900
+	- Cafe saquito			$200
+	- Te saquito 			$100
+	- Mate cocido			$100
+
+ - Alfajores:
+
+	- Tofi negro			$550
+	- Alfajor milka triple		$1100
+	- Guaymallen B triple		$700
+	- Guaymallen N triple		$700
+	- Alfajor oreo			$1100
+	- Alfajor bon o bon		$1100
+	- Alfajor fantoche N		$900
+	- Alfajor block			$1100
+	- Alfajor tatin B triple	$900
+	- Alfajor tatin B simple	$350
+	- Alfajor pepito triple		$1100
+	- Alfajor terrabusi triple	$900
+	- Alfajor trishot 		$1100
+
+ - Galletitas y Snacks:
+
+	- 9 de oro agridule		$1350
+	- 9 de oro grasa		$1350
+	- Don satur dulce		$1350
+	- Don satur salada		$1350
+	- Chocolinas 250g		$1500
+	- Pepas 9 de oro		$1250
+	- Formis grandes		$1300
+	- Formis chiquitas		$700
+
+ 	    - Formis choco
+ 	    - Formis frutilla
+
+	- Pepas trio 300g		$1700
+	- Saladix Bolsa			$700
+	- Saladix Caja			$1000
+
+ 	    - Saladix calabresa 
+ 	    - Saladix jamon caja 
+ 	    - Saladix pizza caja
+
+	- Galletitas pepito		$1300
+	- Oreos				$1300
+	- Macucas			$900
+	- Tortitas chocolate		$900
+	- Lays clasicas			$2600
+
+	    - Lays jamón serrano
+            - Lays ketchup 
+
+ - Dulces:
+
+	- Chicle frutilla Bel		$800
+	- Chicle menta Bel		$800
+	- Gomitas mogul común		$600
+	- Gomitas mogul ácidas		$650
+	- Chupetines			$200
+
+	    - Chupetin Blueberry
+	    - Chupetin cereza
+	    - Chupetin surtido 
+	    - Chupetin uva/tutti
+
+	- Hall's menta			$700
+	- Chicle menta TopLine		$700
+	- Chicle frutilla TopLine	$700
+	- Chicle TopLine chico		$500
+	- Bulldog sandía 		$650
+	- Bulldog tutti/limon		$650
+	- Rocklets			$650
+
+ - Restos:
+
+	- Alf maicena
+	- Barrita c.mix manzana
+	- Barrita c.mix choco/almendra
+	- Brownie
+	- Levite pomelo
+	- Pastafrola
+	- Turrones
