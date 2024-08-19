@@ -8,6 +8,10 @@ html {
     box-sizing: inherit;
 }
 
+:root {
+  --default-bg-color: #0d83aa;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -22,7 +26,7 @@ body {
     padding: .5em 1em;
     position: sticky;
     top: 0;
-    background-color: #0d83aa;
+    background-color: var(--default-bg-color);
     width: 100%;
 }
 
@@ -84,46 +88,27 @@ body {
     margin-bottom: 30px;
 }
 
-@media only screen and (max-width: 480px) {
-    .header {
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-    }
-    
-    .search input {
-      height: 30px;
-      width: 100%;
-      margin: 5px;
-    }
+.footer {
+  display: flex;
+  background-color: var(--default-bg-color);
+  padding: 2em 1em;
+  justify-content: center;
+  align-items: center;
+}
 
-    .img-logo {
-      height: 50px;
-      width: auto;
-      margin: 5px;
-    }
-    
-    .grid-producto {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 15px;
-    }
-    
-    .producto img {
-      width: 150px;
-      height: 150px;
-      object-fit: contain;
-    }
-    
-    .producto h2 {
-      font-size: 1.1rem;
-    }
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
 
-    .producto p {
-      font-size: .9rem;
-    }
-  }
+.footer img {
+  height: 30px;
+  vertical-align: middle;
+  display: inline-block;
+}
 
-@media (min-width: 481px) and (max-width: 900px) {
+@media only screen and (min-width: 670px) and (max-width: 1365px) {
   .header {
     align-items: center;
     width: 100%;
@@ -153,10 +138,88 @@ body {
   }
   
   .producto h2 {
+    font-size: 1.5rem;
+  }
+
+  .producto p {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 669px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .search input {
+    height: 30px;
+    width: 100%;
+    margin: 5px;
+  }
+
+  .img-logo {
+    height: 50px;
+    width: auto;
+    margin: 5px;
+  }
+  
+  .grid-producto {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .producto img {
+    width: 135px;
+    height: 135px;
+    object-fit: contain;
+  }
+  
+  .producto h2 {
     font-size: 1.1rem;
   }
 
   .producto p {
     font-size: .9rem;
+  }
+}
+
+@media only screen and (min-width: 344px) and (max-width: 360px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .search input {
+    height: 30px;
+    width: 100%;
+    margin: 5px;
+  }
+
+  .img-logo {
+    height: 50px;
+    width: auto;
+    margin: 5px;
+  }
+  
+  .grid-producto {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .producto img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+  }
+  
+  .producto h2 {
+    font-size: .9rem;
+  }
+
+  .producto p {
+    font-size: .8rem;
   }
 }
