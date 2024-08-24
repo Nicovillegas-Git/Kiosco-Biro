@@ -16,7 +16,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: #ebebeb;
+    background-color: #e6dddd;
+    position: relative;
+    min-height: 100vh;
 }
 
 .header {
@@ -56,7 +58,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    margin: 20px;
+    margin: 20px 20px 0 20px;
 }
 
 .producto {
@@ -79,16 +81,32 @@ body {
 .producto h2 {
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 0;
+  margin: 0 0 15px 0;
+  text-align: center;
 }
 
 .producto p {
     font-size: 1.2rem;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.stock {
+  margin: 0;
+}
+
+.wrapper {
+  padding-bottom: 90px;
 }
 
 .footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
   display: flex;
   background-color: var(--default-bg-color);
   padding: 2em 1em;
@@ -108,22 +126,10 @@ body {
   display: inline-block;
 }
 
-@media only screen and (min-width: 670px) and (max-width: 1365px) {
+@media only screen and (min-width: 681px) and (max-width: 1365px) {
   .header {
     align-items: center;
     width: 100%;
-  }
-  
-  .search input {
-    height: 28px;
-    width: 100%;
-    margin: 5px;
-  }
-
-  .img-logo {
-    height: 50px;
-    width: auto;
-    margin: 5px;
   }
   
   .grid-producto {
@@ -146,7 +152,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 361px) and (max-width: 669px) {
+@media only screen and (min-width: 361px) and (max-width: 680px) {
   .header {
     flex-direction: column;
     align-items: center;
@@ -160,11 +166,11 @@ body {
   }
 
   .img-logo {
-    height: 50px;
+    height: 60px;
     width: auto;
     margin: 5px;
   }
-  
+
   .grid-producto {
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
